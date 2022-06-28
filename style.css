@@ -1,0 +1,81 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+   font-family: 'Raleway' , sans-serif; 
+   margin: 0px 40px 0px 40px;
+}
+
+/* HEADER */
+
+nav{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 40px 40px 0px 40px;
+}
+
+nav img{
+    width: 120px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    margin: 0 40px 0 20px;
+}
+
+/* MAIN */
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#banner p{
+    margin-top: -15px;
+}
+
+/* research city form */
+
+.icon_location{
+    background-color:#F2F2F2 ;
+padding: 17.4px 15px 14.2px 20px;
+    border-radius: 10px 0px 0px 10px ;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.search_input{
+    height: 46.5px;
+    width: 220px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-right: none;
+    border-left: none;
+    border-top:#F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
+    margin-right: -3.5px;
+    
+
+}
+
+button{
+    height: 54px;
+    width: 120px;
+    border-radius: 0px 15px 15px 0px ;
+    background-color:#0065FC;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
