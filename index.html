@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="global_frame">
+    <div id="global_frame">
     <header>
         <!-- nav bar with logo -->
         <nav>
@@ -41,7 +41,7 @@
                     </span>
                 </label>
                 <input class="search_input" id="city" type="text" placeholder="Marseille, France">
-                <button type="submit">Rechercher </button>
+                <button class="search_btn" type="submit"> Rechercher </button>
             </form>
         </div>
         <!-- filters -->
@@ -49,22 +49,22 @@
         <div id="filters_contener">
             <h3>Filtres</h3>
 
-            <div id="filter_eco">
+            <div class="filter">
                 <i class="fa-solid fa-money-bill-wave"></i>
                 <p>Économique</p>
             </div>
 
-            <div id="filter_familly">
+            <div class="filter">
                 <i class="fa-solid fa-child-reaching"></i>
                 <p>Famillial</p>
             </div>
 
-            <div id="filter_romantic">
+            <div class="filter">
                 <i class="fa-solid fa-heart"></i>
                 <p>Romantique</p>
             </div>
 
-            <div id="filter_animals">
+            <div class="filter">
                 <i class="fa-solid fa-dog"></i>
                 <p>Animaux autorisés</p>
             </div>
