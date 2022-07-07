@@ -7,14 +7,16 @@ html {
 
 body{
   font-family: 'Raleway' , sans-serif; 
-  width: 100%;
+  max-width: 1440px;
+  overflow-x: hidden;
+  margin: auto;
 }
+
 .global_frame{
   margin: 0 40px 0 40px;
 }
 
-
-/* Header *
+/********** Header **********/
 
 /* Nav bar */
 nav{
@@ -25,7 +27,7 @@ nav{
   padding: 38px 0 50px 0;
 }
 /* logo */
-.nav_img{
+nav img{
   display: block;
   height: 40px;
   width: auto;
@@ -52,10 +54,6 @@ nav li a:hover{
   border-top: #0065FC 2px solid;
 }
 
-.current_link{
-  color: #0065FC;
-  border-top: #0065FC 2px solid;
-} 
 
 /* MAIN */
 /* Banner */
@@ -68,7 +66,7 @@ nav li a:hover{
   margin-bottom: 10px;
 }
 
-/* Research Form */
+/********** Research Form **********/
 
 .search{
   display: flex;
@@ -98,18 +96,18 @@ nav li a:hover{
   font-weight: 600;
   border-radius: 0 15px 15px 0;
   font-size: 18px;
-  font-family: 'Raleway'  sans-serif;
+  font-family: 'Raleway' , sans-serif;
 
 }
 
 ::placeholder{
   color: black;
   font-weight: bold;
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
 }
 
-/* Filters */
+/********** Filters **********/
 
 .filters_contener{
   display: flex;
@@ -134,6 +132,7 @@ nav li a:hover{
   padding: 15px;
   border-radius: 100%;
   margin-right: 15px;
+
 }
 
 .filter{
@@ -144,5 +143,283 @@ nav li a:hover{
   border-radius: 35px;
   height: 46px;
   margin-right: 20px;
+}
+
+.filter p{
+  font-weight: bold;
+}
+
+
+
+/********** Search result *********/
+
+.search_result{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start
+}
+
+.search_result i{
+  display: inline-block;
+  color:#0065FC;
+  padding: 5px 8px 5px 8px;
+  border-radius: 100%;
+  border: #F2F2F2 2px solid;
+  margin-right: 10px;
+}
+
+/********* Main *********/
+/* section container */
+.accomodation_popular_bloc{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  gap: 30px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.star_full_icon{
+  color: #0065FC;
+  font-size: 14px;
+}
+.star_empty_icon{
+  color:lightgray;
+  font-size: 14px;
+}
+
+/* Most popular container */
+
+.most_popular{
+  display: flex;
+  flex-direction: column;
+  background-color:#F2F2F2;
+  border-radius: 25px;
+  max-height: 643px;
+}
+
+.title_most_popular{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 40px 0 40px;
+
+}
+.title_most_popular_star{
+  font-size: 22px;
+}
+
+/* most popular card */
+
+.popular_appartement_card{
+  display: flex;
+  width: 343px;
+  height: 144px;
+  background-color: white ;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 0 40px 30px 40px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.466);
+  cursor: pointer;
+}
+
+.popular_appartement_card img{
+  display: flex;
+  border-radius: 15px 0 0 15px ;
+  height: 134px;
+  width: 132px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.popular_appartement_card p{
+  margin: -10px 0 30px 0;
+}
+
+/* accomodation container */
+.accomodation{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 66%;
+  max-width: 886px;
+  background-color: #F2F2F2;
+  border-radius: 25px;
+  padding: 0 20px 0 40px;
+}
+
+.title_accomodation{
+  display: flex;
+  width: 100%;
+}
+
+/* accomodation card */
+
+.accomodation_appartement_card{
+  display: flex;
+  flex-flow: column wrap;
+  margin: 10px 28px 20px 0;
+  padding: 4px;
+  border-radius: 20px;
+  background-color: white;
+  width: 246px;
+  height: 199px;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.466);
+}
+
+.accomodation_appartement_card img{
+  margin: 2px 2px 0 3px;
+  width: 232px;
+  height: 100px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+.accomodation_appartement_card h3{
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.accomodation_appartement_card p{
+  margin-top: -7px;
+  margin-left: 10px;
+}
+
+.accomodation_appartement_card_rate{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.show_more{
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/********** Activities in Marseille **********/
+
+.activities{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.activities h2{
+  width: 100%;
+}
+
+.activities h4{
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+/* Small card */
+
+.small_card_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.activities_small_card_fort{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 13px 7px #f2f2f2;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.activities_small_card_fort img{
+  border-radius: 20px 20px 0 0;
+  width: 302px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.activities_small_card_island{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 13px 7px #f2f2f2;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.activities_small_card_island img{
+  border-radius: 20px 20px 0 0;
+  width: 302px;
+  height: 125px;
+  object-fit: cover;
+}
+
+
+.activities_small_card{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 13px 7px #f2f2f2;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.activities_small_card img{
+  border-radius: 20px 20px 0 0;
+  width: 302px;
+  height: 155px;
+  object-fit: cover;
+}
+
+/* Large card */
+
+.activities_large_card{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 13px 7px #f2f2f2;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.activities_large_card img{
+  border-radius: 20px 20px 0 0;
+  width: 302px;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* Footer */
+/* footer container */
+
+.footer_container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 280px;
+  width: 100%;
+  min-height: 225px;
+  margin-top: 150px;
+  padding-left: 40px;
+  padding-top: 20px;
+  background-color: #F2F2F2;
+  cursor: pointer;
+}
+
+.footer_link {
+  display: block;
+  text-decoration: none;
+  padding-bottom: 15px;
+  color: black;
+
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+}
+
+.our_accomodations{
+  display: flex;
+  flex-direction: column;
 }
 
