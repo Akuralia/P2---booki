@@ -28,9 +28,8 @@ nav{
 }
 /* logo */
 nav img{
-  display: block;
-  height: 40px;
-  width: auto;
+  display: flex;
+  width: 120px;
 }
 /* nav menu */
 nav ul{
@@ -68,37 +67,50 @@ nav li a:hover{
 
 /********** Research Form **********/
 
-.search{
+.search_bar{
+  width: 419px;
+  height: 49px;
   display: flex;
   align-items: center;
-  width: 100%;
-  height: 80px;
+  border: #F2F2F2 1px solid;
+  border-radius: 16px;
+  margin: 20px 0 15px 0;
 }
-.icon_location{
-  padding: 19px 12px 16.8px 17px;
+.search_bar i{
+  width: 13%;
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #F2F2F2;
   border-radius: 16px 0 0 16px;
 }
 
 .search_input{
-  padding: 22px 12px 17.6px 12px;
+  width: 55%;
+  height: 47px;
   border: none;
-  border-radius: 0;
   outline: none;
 }
 
 .search_btn{
-  margin-left: -5px;
-  padding: 18px 47px 16.5px 12px;
+  width: 33%;
+  height: 49px;
   background-color: #0065FC;
   border: none;
-  color: white;
+  border-radius: 0 16px 16px 0;
+  cursor: pointer;
+}
+
+.search_btn span{
   font-weight: 600;
-  border-radius: 0 15px 15px 0;
   font-size: 18px;
   font-family: 'Raleway' , sans-serif;
-  cursor: pointer;
+  color: white;
+}
 
+.button_icon{
+  display: none;
 }
 
 ::placeholder{
@@ -117,7 +129,7 @@ nav li a:hover{
 }
 
 .filters_contener h4{
-  padding: 20px;
+  padding-right: 20px;
   font-size: 16px;
 
 }
@@ -132,7 +144,7 @@ nav li a:hover{
   background-color: #DEEBFF;
   padding: 15px;
   border-radius: 100%;
-  margin-right: 15px;
+  margin-right: 10px;
 
 }
 
@@ -143,7 +155,8 @@ nav li a:hover{
   border: #F2F2F2 2px solid;
   border-radius: 35px;
   height: 46px;
-  margin-right: 20px;
+  margin-right: 15px;
+  margin-bottom: 10px;
 }
 
 .filter p{
@@ -287,12 +300,12 @@ nav li a:hover{
 }
 
 .accomodation_appartement_card p{
-  margin-top: -7px;
+  margin-top: -6px;
   margin-left: 10px;
 }
 
 .accomodation_appartement_card_rate{
-  margin-top: 10px;
+  margin-top: 9px;
   margin-left: 10px;
 }
 

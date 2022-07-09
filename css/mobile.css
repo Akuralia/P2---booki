@@ -1,4 +1,115 @@
 @media screen and (max-width: 768px)
 {
+    body{
+        margin: 0;
+    }
 
+    .global_frame{
+        margin: 0;
+    }
+
+    /* NAV BAR */
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    nav ul{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding: 0;
+    }
+
+    nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+
+    nav li a{
+        display: block;
+        padding: 30px 0 15px 0;
+    }
+
+    nav li a:hover{
+        border-top: none;
+        border-bottom: #0065fc 3px solid;
+    }
+
+    /* BLOC WITH BANNER SEARCH FORM FILTERS AND SEARCH RESULTS */
+
+    .bloc_before_main{
+        margin: 0 10px 10px 10px;
+        border: red 3px solid;
+    }
+
+    /* SEARCH FORM */
+
+    .search_bar{
+        width: 333px;
+    }
+
+    .search_input{
+        width: 71%;
+    }
+
+    .search_btn span{
+        display: none;
+    }
+
+    .search_btn{
+        display: none;
+    }
+
+    .button_icon{
+        width: 16%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0065fc;
+        border-radius: 16px;
+        border: none;
+    }
+
+    .button_icon i{
+        width: 16%;
+        color: white;
+        background-color: #0065fc;
+        font-size: 18px;
+    }
+
+    .search_result{
+        margin: 20px 0 0 0;
+    }
+
+    .most_popular{
+        width: 375px;
+        align-items: center;
+    }
+
+    .accomodation{
+        width: 375px;
+        padding: 0 20px 20px 20px;
+    }
+
+    .accomodation_appartement_card{
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+
+    .accomodation_appartement_card img{
+        width: 98%;
+    }
+
+    
 }
