@@ -99,6 +99,11 @@
     .most_popular{
         width: 375px;
         align-items: center;
+        border-radius: 0;
+    }
+    .title_most_popular{
+        width: 100%;
+        padding: 0 20px 0 20px;
     }
 
     /* ACCOMODATION MARSEILLE */
