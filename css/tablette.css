@@ -1,10 +1,54 @@
-@media screen and (max-width: 992px) 
+@media (min-width: 768px) and (max-width: 992px) 
 {
+    body{
+        max-width: 775px;
+        margin: auto;
+    }
+    .global_frame{
+        margin: auto;
+    }
 
-    
+    .bloc_before_main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 
+    .filters_container{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .most_popular{
+        margin: auto;
+    }
 
+    .accomodation{
+        align-items: center;
+        justify-content: center;
+    }
 
-    
+    .title_accomodation{
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    .show_more{
+        margin-left: 50px;
+    }
+    .activities{
+    margin-left: 20px;
+    height: auto;
+    }
+
+    .activities_small_card_island{
+        margin-bottom: 10px;
+    }
+
+    .footer_container{
+        gap: 90px;
+        padding-bottom: 20px;
+    }
 }

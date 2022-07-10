@@ -131,14 +131,14 @@ color: black;
 
 /********** Filters **********/
 
-.filters_contener{
+.filters_container{
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
 
-.filters_contener h4{
+.filters_container h4{
   padding-right: 20px;
   font-size: 16px;
 
@@ -149,7 +149,7 @@ color: black;
   align-items: center;
 }
 
-.filters_contener i{
+.filters_container i{
   color: #0065FC;
   background-color: #DEEBFF;
   padding: 15px;
@@ -499,10 +499,10 @@ color: black;
   flex-wrap: wrap;
   gap: 280px;
   width: 100%;
-  min-height: 225px;
   margin-top: 150px;
   padding-left: 40px;
   padding-top: 20px;
+  padding-bottom: 50px;
   background-color: #F2F2F2;
   cursor: pointer;
 }
@@ -512,7 +512,10 @@ color: black;
   text-decoration: none;
   padding-bottom: 15px;
   color: black;
+}
 
+.footer_link:hover{
+  color: #0065FC;
 }
 
 .about{
