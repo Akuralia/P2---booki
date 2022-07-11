@@ -177,6 +177,7 @@ color: black;
 .filter:hover{
   transform: scale(1.05);
   background-color: #f2f2f2;
+  transition-duration: 500ms;
 }
 
 
@@ -274,6 +275,7 @@ color: black;
 
 .popular_appartement_card:hover{
   transform: scale(1.1);
+  transition-duration: 500ms;
 }
 
 /* accomodation container */
@@ -314,6 +316,7 @@ color: black;
 
 .accomodation_appartement_card:hover{
   transform: scale(1.1);
+  transition-duration: 500ms;
 }
 
 .accomodation_appartement_card img{
@@ -397,6 +400,7 @@ color: black;
 
 .activities_small_card_fort:hover{
   transform: scale(1.1);
+  transition-duration: 500ms;
 }
 
 .activities_small_card_fort img{
@@ -420,6 +424,7 @@ color: black;
 
 .activities_small_card_island:hover{
   transform: scale(1.1);
+  transition-duration: 500ms;
 }
 
 .activities_small_card_island img{
@@ -441,6 +446,7 @@ color: black;
 
 .activities_small_card:hover{
   transform: scale(1.1);
+  transition-duration: 500ms;
 }
 
 .activities_small_card img{
@@ -463,6 +469,7 @@ color: black;
 
 .activities_large_card:hover{
   transform: scale(1.1);
+  transition-duration: 500ms;
 }
 
 .activities_large_card img{
@@ -483,6 +490,7 @@ color: black;
 
 .activities_large_card_old_port:hover{
   transform: scale(1.1);
+  transition-duration: 500ms;
 }
 
 .activities_large_card_old_port img{
