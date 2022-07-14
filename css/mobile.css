@@ -88,6 +88,13 @@
         font-size: 18px;
     }
 
+        /* FILTERS */
+
+    .filters_container{
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
     /* SEARCH RESULTS */
 
     .search_result{
@@ -123,21 +130,27 @@
         width: 98%;
     }
 
+    .title_accomodation{
+        margin: 0;
+    }
+
     /* ACTIVITIES MARSEILLE */
 
     .activities{
         width: 100%;
-        justify-content: center;
+        justify-content: left;
+        margin: 20px 0 0 10px;
     }
 
-    .activities h2{
-        margin-left: 30px;
-    }
 
     .activities h4{
         font-size: 16px;
         margin: 0;
         padding: 22px 0 0 15px;
+    }
+
+    .show_more{
+        margin: 10px 0 0 0;
     }
 
     /* LARGES CARDS */
