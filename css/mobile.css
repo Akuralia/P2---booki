@@ -3,6 +3,8 @@
     body{
         width: 377px;
         margin: auto;
+        overflow-x: hidden;
+        position: relative;
     }
 
     .global_frame{
