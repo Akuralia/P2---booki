@@ -4,7 +4,7 @@
         width: 377px;
         margin: auto;
         overflow-x: hidden;
-        position: relative;
+        max-width: 100%;
     }
 
     .global_frame{
